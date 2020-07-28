@@ -1,0 +1,598 @@
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_commentmeta
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_comments
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_comments as wpstg0_comments from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_links
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_client_report
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_client_report as wpstg0_mainwp_client_report from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_client_report_client
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_client_report_format
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_client_report_format as wpstg0_mainwp_client_report_format from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_client_report_site_token
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_client_report_token
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_client_report_token as wpstg0_mainwp_client_report_token from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_group
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_request_log
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_request_log as wpstg0_mainwp_request_log from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_tips
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_updraftplus
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_updraftplus as wpstg0_mainwp_updraftplus from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_users
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_users as wpstg0_mainwp_users from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_wp
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_wp as wpstg0_mainwp_wp from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_wp_backup
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_wp_backup_progress
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_wp_group
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_wp_options
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_wp_options as wpstg0_mainwp_wp_options from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_wp_settings_backup
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_wp_settings_backup as wpstg0_mainwp_wp_settings_backup from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_wp_sync
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_wp_sync as wpstg0_mainwp_wp_sync from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_options
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_options as wpstg0_options from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_postmeta
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_postmeta as wpstg0_postmeta from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_posts
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_posts as wpstg0_posts from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_term_relationships
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_term_relationships as wpstg0_term_relationships from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_term_taxonomy
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_term_taxonomy as wpstg0_term_taxonomy from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_termmeta
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_terms
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_terms as wpstg0_terms from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_usermeta
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_usermeta as wpstg0_usermeta from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_users
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_users as wpstg0_users from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfBadLeechers
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfBlockedCommentLog
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfBlockedIPLog
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfBlockedIPLog as wpstg0_wfBlockedIPLog from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfBlocks7
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfConfig
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfConfig as wpstg0_wfConfig from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfCrawlers
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfCrawlers as wpstg0_wfCrawlers from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfFileChanges
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfFileMods
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfFileMods as wpstg0_wfFileMods from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfHits
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfHits as wpstg0_wfHits from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfHoover
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfIssues
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfIssues as wpstg0_wfIssues from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfKnownFileList
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfKnownFileList as wpstg0_wfKnownFileList from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfLeechers
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfLeechers as wpstg0_wfLeechers from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfLiveTrafficHuman
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfLiveTrafficHuman as wpstg0_wfLiveTrafficHuman from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfLocs
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfLocs as wpstg0_wfLocs from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfLogins
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfLogins as wpstg0_wfLogins from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfNet404s
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfNotifications
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfNotifications as wpstg0_wfNotifications from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfPendingIssues
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfPendingIssues as wpstg0_wfPendingIssues from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfReverseCache
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfReverseCache as wpstg0_wfReverseCache from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfSNIPCache
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfSNIPCache as wpstg0_wfSNIPCache from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfScanners
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfScanners as wpstg0_wfScanners from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfStatus
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfStatus as wpstg0_wfStatus from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfVulnScanners
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_yoast_seo_links
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_yoast_seo_links as wpstg0_yoast_seo_links from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_yoast_seo_meta
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_yoast_seo_meta as wpstg0_yoast_seo_meta from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_commentmeta
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_comments
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_comments as wpstg0_comments from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_links
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_client_report
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_client_report as wpstg0_mainwp_client_report from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_client_report_client
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_client_report_format
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_client_report_format as wpstg0_mainwp_client_report_format from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_client_report_site_token
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_client_report_token
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_client_report_token as wpstg0_mainwp_client_report_token from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_group
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_request_log
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_request_log as wpstg0_mainwp_request_log from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_tips
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_updraftplus
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_updraftplus as wpstg0_mainwp_updraftplus from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_users
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_users as wpstg0_mainwp_users from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_wp
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_wp as wpstg0_mainwp_wp from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_wp_backup
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_wp_backup_progress
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_wp_group
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_wp_options
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_wp_options as wpstg0_mainwp_wp_options from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_wp_settings_backup
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_wp_settings_backup as wpstg0_mainwp_wp_settings_backup from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_mainwp_wp_sync
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_mainwp_wp_sync as wpstg0_mainwp_wp_sync from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_options
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_options as wpstg0_options from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_postmeta
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_postmeta as wpstg0_postmeta from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_posts
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_posts as wpstg0_posts from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_term_relationships
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_term_relationships as wpstg0_term_relationships from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_term_taxonomy
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_term_taxonomy as wpstg0_term_taxonomy from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_termmeta
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_terms
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_terms as wpstg0_terms from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_usermeta
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_usermeta as wpstg0_usermeta from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_users
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_users as wpstg0_users from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfBadLeechers
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfBlockedCommentLog
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfBlockedIPLog
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfBlockedIPLog as wpstg0_wfBlockedIPLog from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfBlocks7
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfConfig
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfConfig as wpstg0_wfConfig from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfCrawlers
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfCrawlers as wpstg0_wfCrawlers from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfFileChanges
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfFileMods
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfFileMods as wpstg0_wfFileMods from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfHits
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfHits as wpstg0_wfHits from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfHoover
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfIssues
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfIssues as wpstg0_wfIssues from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfKnownFileList
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfKnownFileList as wpstg0_wfKnownFileList from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfLeechers
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfLeechers as wpstg0_wfLeechers from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfLiveTrafficHuman
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfLiveTrafficHuman as wpstg0_wfLiveTrafficHuman from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfLocs
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfLocs as wpstg0_wfLocs from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfLogins
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfLogins as wpstg0_wfLogins from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfNet404s
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfNotifications
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfNotifications as wpstg0_wfNotifications from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfPendingIssues
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfPendingIssues as wpstg0_wfPendingIssues from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfReverseCache
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfReverseCache as wpstg0_wfReverseCache from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfSNIPCache
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfSNIPCache as wpstg0_wfSNIPCache from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfScanners
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfScanners as wpstg0_wfScanners from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfStatus
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_wfStatus as wpstg0_wfStatus from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_wfVulnScanners
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_yoast_seo_links
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_yoast_seo_links as wpstg0_yoast_seo_links from 0 to 20000 records
+[INFO]-[2018/07/29 09:18:28] DB Copy: Creating table wpstg0_yoast_seo_meta
+[INFO]-[2018/07/29 09:18:28] DB Copy: wp_yoast_seo_meta as wpstg0_yoast_seo_meta from 0 to 20000 records
+[]-[] 
+[]-[] 
+[]-[] 
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_comments 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_client_report 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_client_report_format 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_client_report_token 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_request_log 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_updraftplus 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_users 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_wp 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_wp_options 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_wp_settings_backup 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_wp_sync 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_options 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_postmeta 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_posts 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_term_relationships 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_term_taxonomy 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_terms 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_usermeta 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_users 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_wfBlockedIPLog 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_wfConfig 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_wfCrawlers 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_wfFileMods 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_wfFileMods 5000 to 10000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_wfHits 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfIssues 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfKnownFileList 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfKnownFileList 5000 to 10000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfLeechers 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfLiveTrafficHuman 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfLocs 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfLogins 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfNotifications 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfPendingIssues 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfReverseCache 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfSNIPCache 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfScanners 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfStatus 0 to 5000 records
+[]-[] 
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_comments 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_client_report 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_client_report_format 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_client_report_token 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_request_log 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_updraftplus 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_users 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_wp 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_wp_options 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_wp_settings_backup 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_mainwp_wp_sync 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_options 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_postmeta 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_posts 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_term_relationships 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_term_taxonomy 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_terms 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_usermeta 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_users 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_wfBlockedIPLog 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_wfConfig 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_wfCrawlers 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_wfFileMods 0 to 5000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_wfFileMods 5000 to 10000 records
+[INFO]-[2018/07/29 09:18:32] DB Processing:  Table wpstg0_wfHits 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfIssues 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfKnownFileList 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfKnownFileList 5000 to 10000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfLeechers 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfLiveTrafficHuman 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfLocs 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfLogins 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfNotifications 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfPendingIssues 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfReverseCache 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfSNIPCache 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfScanners 0 to 5000 records
+[INFO]-[2018/07/29 09:18:33] DB Processing:  Table wpstg0_wfStatus 0 to 5000 records
+[INFO]-[2018/07/29 09:18:35] DB Processing:  Table wpstg0_yoast_seo_links 0 to 5000 records
+[INFO]-[2018/07/29 09:18:35] DB Processing:  Table wpstg0_yoast_seo_meta 0 to 5000 records
+[INFO]-[2018/07/29 09:18:35] DB Processing:  Table wpstg0_yoast_seo_links 0 to 5000 records
+[INFO]-[2018/07/29 09:18:35] DB Processing:  Table wpstg0_yoast_seo_meta 0 to 5000 records
+[INFO]-[2018/07/29 09:18:36] Scanning / for files
+[INFO]-[2018/07/29 09:18:36] Scanning / for files
+[INFO]-[2018/07/29 09:18:38] Scanning /wp-content for its sub-directories and files
+[INFO]-[2018/07/29 09:18:38] Scanning /wp-content for its sub-directories and files
+[INFO]-[2018/07/29 09:18:41] Scanning /wp-includes for its sub-directories and files
+[INFO]-[2018/07/29 09:18:41] Scanning /wp-includes for its sub-directories and files
+[INFO]-[2018/07/29 09:18:43] Scanning /wp-admin for its sub-directories and files
+[INFO]-[2018/07/29 09:18:43] Scanning /wp-admin for its sub-directories and files
+[INFO]-[2018/07/29 09:18:46] Copying files...
+[INFO]-[2018/07/29 09:18:46] Total 50 files processed
+[INFO]-[2018/07/29 09:18:47] Total 100 files processed
+[INFO]-[2018/07/29 09:18:47] Total 150 files processed
+[INFO]-[2018/07/29 09:18:47] Trying to copy big file: /home4/brentono/public_html/wp-content/themes/bo_twentyfourteen/js/JavaScriptSpellCheck/dictionaries/Francais.dic -> /home4/brentono/public_html/bo_stage/wp-content/themes/bo_twentyfourteen/js/JavaScriptSpellCheck/dictionaries/Francais.dic
+[INFO]-[2018/07/29 09:18:47] Total 200 files processed
+[INFO]-[2018/07/29 09:18:47] Total 250 files processed
+[INFO]-[2018/07/29 09:18:47] Total 300 files processed
+[INFO]-[2018/07/29 09:18:47] Total 350 files processed
+[INFO]-[2018/07/29 09:18:47] Total 400 files processed
+[INFO]-[2018/07/29 09:18:47] Trying to copy big file: /home4/brentono/public_html/wp-content/wflogs/GeoLite2-Country.mmdb -> /home4/brentono/public_html/bo_stage/wp-content/wflogs/GeoLite2-Country.mmdb
+[INFO]-[2018/07/29 09:18:48] Total 450 files processed
+[INFO]-[2018/07/29 09:18:48] Total 500 files processed
+[INFO]-[2018/07/29 09:18:48] Total 550 files processed
+[INFO]-[2018/07/29 09:18:48] Total 600 files processed
+[INFO]-[2018/07/29 09:18:48] Total 650 files processed
+[INFO]-[2018/07/29 09:18:48] Total 700 files processed
+[INFO]-[2018/07/29 09:18:48] Total 750 files processed
+[INFO]-[2018/07/29 09:18:48] Total 800 files processed
+[INFO]-[2018/07/29 09:18:48] Total 850 files processed
+[INFO]-[2018/07/29 09:18:48] Total 900 files processed
+[INFO]-[2018/07/29 09:18:48] Total 950 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1000 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1050 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1100 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1150 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1200 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1250 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1300 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1350 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1400 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1450 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1500 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1550 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1600 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1650 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1700 files processed
+[INFO]-[2018/07/29 09:18:49] Total 1750 files processed
+[INFO]-[2018/07/29 09:18:49] Total 1800 files processed
+[INFO]-[2018/07/29 09:18:49] Total 1850 files processed
+[INFO]-[2018/07/29 09:18:49] Total 1900 files processed
+[INFO]-[2018/07/29 09:18:49] Total 1950 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2000 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2050 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2100 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2150 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2200 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2250 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2300 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2350 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2400 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2450 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2500 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2550 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2600 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2650 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2700 files processed
+[INFO]-[2018/07/29 09:18:50] Total 2750 files processed
+[INFO]-[2018/07/29 09:18:50] Total 2800 files processed
+[INFO]-[2018/07/29 09:18:50] Total 2850 files processed
+[INFO]-[2018/07/29 09:18:50] Total 2900 files processed
+[INFO]-[2018/07/29 09:18:50] Total 2950 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3000 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3050 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3100 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3150 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3200 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3250 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3300 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3350 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3400 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3450 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3500 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3550 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3600 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3650 files processed
+[INFO]-[2018/07/29 09:18:50] Trying to copy big file: /home4/brentono/public_html/wp-content/plugins/wordfence/lib/GeoLite2-Country.mmdb -> /home4/brentono/public_html/bo_stage/wp-content/plugins/wordfence/lib/GeoLite2-Country.mmdb
+[INFO]-[2018/07/29 09:18:51] Total 3700 files processed
+[INFO]-[2018/07/29 09:18:51] Total 3750 files processed
+[INFO]-[2018/07/29 09:18:51] Total 3800 files processed
+[INFO]-[2018/07/29 09:18:51] Total 3850 files processed
+[INFO]-[2018/07/29 09:18:51] Total 3900 files processed
+[INFO]-[2018/07/29 09:18:51] Total 3950 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4000 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4050 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4100 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4150 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4200 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4250 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4300 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4350 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4400 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4450 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4500 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4550 files processed
+[INFO]-[2018/07/29 09:18:52] Total 4600 files processed
+[INFO]-[2018/07/29 09:18:52] Total 4650 files processed
+[INFO]-[2018/07/29 09:18:52] Total 4700 files processed
+[INFO]-[2018/07/29 09:18:52] Total 4750 files processed
+[INFO]-[2018/07/29 09:18:52] Total 4800 files processed
+[INFO]-[2018/07/29 09:18:52] Total 4850 files processed
+[INFO]-[2018/07/29 09:18:52] Total 4900 files processed
+[INFO]-[2018/07/29 09:18:52] Total 4950 files processed
+[INFO]-[2018/07/29 09:18:52] Total 5000 files processed
+[INFO]-[2018/07/29 09:18:52] Trying to copy big file: /home4/brentono/public_html/wp-content/plugins/wordpress-seo/js/dist/wp-seo-post-scraper-790.min.js -> /home4/brentono/public_html/bo_stage/wp-content/plugins/wordpress-seo/js/dist/wp-seo-post-scraper-790.min.js
+[INFO]-[2018/07/29 09:18:52] Trying to copy big file: /home4/brentono/public_html/wp-content/plugins/wordpress-seo/js/dist/wp-seo-term-scraper-790.min.js -> /home4/brentono/public_html/bo_stage/wp-content/plugins/wordpress-seo/js/dist/wp-seo-term-scraper-790.min.js
+[INFO]-[2018/07/29 09:18:52] Total 5050 files processed
+[INFO]-[2018/07/29 09:18:52] Total 5100 files processed
+[INFO]-[2018/07/29 09:18:52] Total 5150 files processed
+[INFO]-[2018/07/29 09:18:53] Total 5200 files processed
+[INFO]-[2018/07/29 09:18:53] Total 5250 files processed
+[INFO]-[2018/07/29 09:18:54] Total 5300 files processed
+[INFO]-[2018/07/29 09:18:54] Total 5350 files processed
+[INFO]-[2018/07/29 09:18:54] Total 5400 files processed
+[INFO]-[2018/07/29 09:18:54] Total 5450 files processed
+[INFO]-[2018/07/29 09:18:54] Total 5500 files processed
+[INFO]-[2018/07/29 09:18:54] Total 5550 files processed
+[INFO]-[2018/07/29 09:18:55] Total 5600 files processed
+[INFO]-[2018/07/29 09:18:55] Total 5650 files processed
+[INFO]-[2018/07/29 09:18:55] Total 5700 files processed
+[INFO]-[2018/07/29 09:18:55] Total 5750 files processed
+[INFO]-[2018/07/29 09:18:55] Total 5800 files processed
+[INFO]-[2018/07/29 09:18:55] Total 5850 files processed
+[INFO]-[2018/07/29 09:18:56] Total 5900 files processed
+[INFO]-[2018/07/29 09:18:56] Total 5950 files processed
+[INFO]-[2018/07/29 09:18:56] Total 6000 files processed
+[INFO]-[2018/07/29 09:18:56] Total 6050 files processed
+[INFO]-[2018/07/29 09:18:56] Total 6100 files processed
+[INFO]-[2018/07/29 09:18:56] Total 6150 files processed
+[INFO]-[2018/07/29 09:18:56] Total 6200 files processed
+[INFO]-[2018/07/29 09:18:57] Total 6250 files processed
+[INFO]-[2018/07/29 09:18:57] Total 6300 files processed
+[INFO]-[2018/07/29 09:18:57] Total 6350 files processed
+[INFO]-[2018/07/29 09:18:57] Total 6400 files processed
+[INFO]-[2018/07/29 09:18:46] Copying files...
+[INFO]-[2018/07/29 09:18:46] Total 50 files processed
+[INFO]-[2018/07/29 09:18:47] Total 100 files processed
+[INFO]-[2018/07/29 09:18:47] Total 150 files processed
+[INFO]-[2018/07/29 09:18:47] Trying to copy big file: /home4/brentono/public_html/wp-content/themes/bo_twentyfourteen/js/JavaScriptSpellCheck/dictionaries/Francais.dic -> /home4/brentono/public_html/bo_stage/wp-content/themes/bo_twentyfourteen/js/JavaScriptSpellCheck/dictionaries/Francais.dic
+[INFO]-[2018/07/29 09:18:47] Total 200 files processed
+[INFO]-[2018/07/29 09:18:47] Total 250 files processed
+[INFO]-[2018/07/29 09:18:47] Total 300 files processed
+[INFO]-[2018/07/29 09:18:47] Total 350 files processed
+[INFO]-[2018/07/29 09:18:47] Total 400 files processed
+[INFO]-[2018/07/29 09:18:47] Trying to copy big file: /home4/brentono/public_html/wp-content/wflogs/GeoLite2-Country.mmdb -> /home4/brentono/public_html/bo_stage/wp-content/wflogs/GeoLite2-Country.mmdb
+[INFO]-[2018/07/29 09:18:48] Total 450 files processed
+[INFO]-[2018/07/29 09:18:48] Total 500 files processed
+[INFO]-[2018/07/29 09:18:48] Total 550 files processed
+[INFO]-[2018/07/29 09:18:48] Total 600 files processed
+[INFO]-[2018/07/29 09:18:48] Total 650 files processed
+[INFO]-[2018/07/29 09:18:48] Total 700 files processed
+[INFO]-[2018/07/29 09:18:48] Total 750 files processed
+[INFO]-[2018/07/29 09:18:48] Total 800 files processed
+[INFO]-[2018/07/29 09:18:48] Total 850 files processed
+[INFO]-[2018/07/29 09:18:48] Total 900 files processed
+[INFO]-[2018/07/29 09:18:48] Total 950 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1000 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1050 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1100 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1150 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1200 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1250 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1300 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1350 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1400 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1450 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1500 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1550 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1600 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1650 files processed
+[INFO]-[2018/07/29 09:18:48] Total 1700 files processed
+[INFO]-[2018/07/29 09:18:49] Total 1750 files processed
+[INFO]-[2018/07/29 09:18:49] Total 1800 files processed
+[INFO]-[2018/07/29 09:18:49] Total 1850 files processed
+[INFO]-[2018/07/29 09:18:49] Total 1900 files processed
+[INFO]-[2018/07/29 09:18:49] Total 1950 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2000 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2050 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2100 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2150 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2200 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2250 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2300 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2350 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2400 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2450 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2500 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2550 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2600 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2650 files processed
+[INFO]-[2018/07/29 09:18:49] Total 2700 files processed
+[INFO]-[2018/07/29 09:18:50] Total 2750 files processed
+[INFO]-[2018/07/29 09:18:50] Total 2800 files processed
+[INFO]-[2018/07/29 09:18:50] Total 2850 files processed
+[INFO]-[2018/07/29 09:18:50] Total 2900 files processed
+[INFO]-[2018/07/29 09:18:50] Total 2950 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3000 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3050 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3100 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3150 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3200 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3250 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3300 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3350 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3400 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3450 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3500 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3550 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3600 files processed
+[INFO]-[2018/07/29 09:18:50] Total 3650 files processed
+[INFO]-[2018/07/29 09:18:50] Trying to copy big file: /home4/brentono/public_html/wp-content/plugins/wordfence/lib/GeoLite2-Country.mmdb -> /home4/brentono/public_html/bo_stage/wp-content/plugins/wordfence/lib/GeoLite2-Country.mmdb
+[INFO]-[2018/07/29 09:18:51] Total 3700 files processed
+[INFO]-[2018/07/29 09:18:51] Total 3750 files processed
+[INFO]-[2018/07/29 09:18:51] Total 3800 files processed
+[INFO]-[2018/07/29 09:18:51] Total 3850 files processed
+[INFO]-[2018/07/29 09:18:51] Total 3900 files processed
+[INFO]-[2018/07/29 09:18:51] Total 3950 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4000 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4050 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4100 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4150 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4200 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4250 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4300 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4350 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4400 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4450 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4500 files processed
+[INFO]-[2018/07/29 09:18:51] Total 4550 files processed
+[INFO]-[2018/07/29 09:18:52] Total 4600 files processed
+[INFO]-[2018/07/29 09:18:52] Total 4650 files processed
+[INFO]-[2018/07/29 09:18:52] Total 4700 files processed
+[INFO]-[2018/07/29 09:18:52] Total 4750 files processed
+[INFO]-[2018/07/29 09:18:52] Total 4800 files processed
+[INFO]-[2018/07/29 09:18:52] Total 4850 files processed
+[INFO]-[2018/07/29 09:18:52] Total 4900 files processed
+[INFO]-[2018/07/29 09:18:52] Total 4950 files processed
+[INFO]-[2018/07/29 09:18:52] Total 5000 files processed
+[INFO]-[2018/07/29 09:18:52] Trying to copy big file: /home4/brentono/public_html/wp-content/plugins/wordpress-seo/js/dist/wp-seo-post-scraper-790.min.js -> /home4/brentono/public_html/bo_stage/wp-content/plugins/wordpress-seo/js/dist/wp-seo-post-scraper-790.min.js
+[INFO]-[2018/07/29 09:18:52] Trying to copy big file: /home4/brentono/public_html/wp-content/plugins/wordpress-seo/js/dist/wp-seo-term-scraper-790.min.js -> /home4/brentono/public_html/bo_stage/wp-content/plugins/wordpress-seo/js/dist/wp-seo-term-scraper-790.min.js
+[INFO]-[2018/07/29 09:18:52] Total 5050 files processed
+[INFO]-[2018/07/29 09:18:52] Total 5100 files processed
+[INFO]-[2018/07/29 09:18:52] Total 5150 files processed
+[INFO]-[2018/07/29 09:18:53] Total 5200 files processed
+[INFO]-[2018/07/29 09:18:53] Total 5250 files processed
+[INFO]-[2018/07/29 09:18:54] Total 5300 files processed
+[INFO]-[2018/07/29 09:18:54] Total 5350 files processed
+[INFO]-[2018/07/29 09:18:54] Total 5400 files processed
+[INFO]-[2018/07/29 09:18:54] Total 5450 files processed
+[INFO]-[2018/07/29 09:18:54] Total 5500 files processed
+[INFO]-[2018/07/29 09:18:54] Total 5550 files processed
+[INFO]-[2018/07/29 09:18:55] Total 5600 files processed
+[INFO]-[2018/07/29 09:18:55] Total 5650 files processed
+[INFO]-[2018/07/29 09:18:55] Total 5700 files processed
+[INFO]-[2018/07/29 09:18:55] Total 5750 files processed
+[INFO]-[2018/07/29 09:18:55] Total 5800 files processed
+[INFO]-[2018/07/29 09:18:55] Total 5850 files processed
+[INFO]-[2018/07/29 09:18:56] Total 5900 files processed
+[INFO]-[2018/07/29 09:18:56] Total 5950 files processed
+[INFO]-[2018/07/29 09:18:56] Total 6000 files processed
+[INFO]-[2018/07/29 09:18:56] Total 6050 files processed
+[INFO]-[2018/07/29 09:18:56] Total 6100 files processed
+[INFO]-[2018/07/29 09:18:56] Total 6150 files processed
+[INFO]-[2018/07/29 09:18:56] Total 6200 files processed
+[INFO]-[2018/07/29 09:18:57] Total 6250 files processed
+[INFO]-[2018/07/29 09:18:57] Total 6300 files processed
+[INFO]-[2018/07/29 09:18:57] Total 6350 files processed
+[INFO]-[2018/07/29 09:18:57] Total 6400 files processed
+[INFO]-[2018/07/29 09:18:59] Copying files finished
+[INFO]-[2018/07/29 09:18:59] Copying files finished
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step1: Updating siteurl and homeurl in wpstg0_options 
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step1: Updating siteurl and homeurl to https://brentonoliver.com/bo_stage
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step2: Updating row wpstg_is_staging_site in wpstg0_options 
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step3: Updating rewrite_rules in wpstg0_options 
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step4: Updating db prefix in wpstg0_usermeta. 
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step5: Updating table_prefix in /home4/brentono/public_html/bo_stage/wp-config.php to wpstg0_
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step7: Updating wpstg_rmpermalinks_executed in wpstg0_options 
+[WARNING]-[2018/07/29 09:19:00] Failed to update wpstg_rmpermalinks_executed in wpstg0_options 
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step8: Updating permalink_structure in wpstg0_options 
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step8: Finished Step 8 successfully
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step9: Set staging site to noindex
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step9: Finished Step 9 successfully
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step10: Updating WP_HOME in wp-config.php to https://brentonoliver.com/bo_stage
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step10: WP_HOME not defined in wp-config.php. Skipping this step.
+[INFO]-[2018/07/29 09:19:00] Preparing Data: Finished Step 11 successfully
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step11: Updating WP_SITEURL in wp-config.php to https://brentonoliver.com/bo_stage
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step11: WP_SITEURL not defined in wp-config.php. Skipping this step.
+[INFO]-[2018/07/29 09:19:00] Preparing Data: Finished Step 11 successfully
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step12: Updating db prefix in wpstg0_options. Error: 
+[INFO]-[2018/07/29 09:19:00] Updating db option_names in wpstg0_options. Error: 
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step1: Updating siteurl and homeurl in wpstg0_options 
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step1: Updating siteurl and homeurl to https://brentonoliver.com/bo_stage
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step2: Updating row wpstg_is_staging_site in wpstg0_options 
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step3: Updating rewrite_rules in wpstg0_options 
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step4: Updating db prefix in wpstg0_usermeta. 
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step5: Updating table_prefix in /home4/brentono/public_html/bo_stage/wp-config.php to wpstg0_
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step7: Updating wpstg_rmpermalinks_executed in wpstg0_options 
+[WARNING]-[2018/07/29 09:19:00] Failed to update wpstg_rmpermalinks_executed in wpstg0_options 
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step8: Updating permalink_structure in wpstg0_options 
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step8: Finished Step 8 successfully
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step9: Set staging site to noindex
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step9: Finished Step 9 successfully
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step10: Updating WP_HOME in wp-config.php to https://brentonoliver.com/bo_stage
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step10: WP_HOME not defined in wp-config.php. Skipping this step.
+[INFO]-[2018/07/29 09:19:00] Preparing Data: Finished Step 11 successfully
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step11: Updating WP_SITEURL in wp-config.php to https://brentonoliver.com/bo_stage
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step11: WP_SITEURL not defined in wp-config.php. Skipping this step.
+[INFO]-[2018/07/29 09:19:00] Preparing Data: Finished Step 11 successfully
+[INFO]-[2018/07/29 09:19:00] Preparing Data Step12: Updating db prefix in wpstg0_options. Error: 
+[INFO]-[2018/07/29 09:19:00] Updating db option_names in wpstg0_options. Error: 
+[]-[] 
+[]-[] 
+[INFO]-[2018/07/29 09:19:03] Finish: Deleting clone job's cache files...
+[INFO]-[2018/07/29 09:19:03] Finish: Clone job's cache files have been deleted!
+[INFO]-[2018/07/29 09:19:03] Finish: Verifying existing clones...
+[INFO]-[2018/07/29 09:19:03] Finish: bo_stage's clone job's data is not in database, generating data
+[INFO]-[2018/07/29 09:19:03] Finish: Deleting clone job's cache files...
+[INFO]-[2018/07/29 09:19:03] Finish: Clone job's cache files have been deleted!
+[INFO]-[2018/07/29 09:19:03] Finish: Verifying existing clones...
+[INFO]-[2018/07/29 09:19:03] Finish: bo_stage's clone job's data is not in database, generating data
