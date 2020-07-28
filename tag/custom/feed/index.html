@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>custom &#8211; Brenton Oliver</title>
+	<atom:link href="https://boliver5463.github.io/portfolio-test/tag/custom/feed/" rel="self" type="application/rss+xml" />
+	<link>https://boliver5463.github.io/portfolio-test/</link>
+	<description>Web Developer</description>
+	<lastBuildDate>Mon, 13 May 2019 04:48:47 +0000</lastBuildDate>
+	<language>en-AU</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.0.10</generator>
+
+<image>
+	<url>https://boliver5463.github.io/portfolio-test/wp-content/uploads/2017/05/cropped-BO_Icon-32x32.png</url>
+	<title>custom &#8211; Brenton Oliver</title>
+	<link>https://boliver5463.github.io/portfolio-test/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>WordPress Custom Post Type</title>
+		<link>https://boliver5463.github.io/portfolio-test/wordpress-custom-post-type/</link>
+		<comments>https://boliver5463.github.io/portfolio-test/wordpress-custom-post-type/#comments</comments>
+		<pubDate>Mon, 14 May 2018 01:12:06 +0000</pubDate>
+		<dc:creator><![CDATA[boliver5463]]></dc:creator>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[admin]]></category>
+		<category><![CDATA[custom]]></category>
+		<category><![CDATA[post]]></category>
+		<category><![CDATA[post type]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<category><![CDATA[wp]]></category>
+
+		<guid isPermaLink="false">https://boliver5463.github.io/portfolio-test/?p=401</guid>
+		<description><![CDATA[<p>function project_post_type() { $labels = array( 'name' => 'Projects', 'singular_name' => 'Project', 'menu_name' => 'Projects', 'name_admin_bar' => 'Projects', 'add_new' => 'Add New', 'add_new_item' => 'Add New<span class="excerpt-hellip"> […]</span></p>
+<p>The post <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/wordpress-custom-post-type/">WordPress Custom Post Type</a> appeared first on <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/">Brenton Oliver</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<pre>
+function project_post_type() {
+	$labels = array(
+		'name'               => 'Projects',
+		'singular_name'      => 'Project',
+		'menu_name'          => 'Projects',
+		'name_admin_bar'     => 'Projects',
+		'add_new'            => 'Add New',
+		'add_new_item'       => 'Add New Project',
+		'new_item'           => 'New Project',
+		'edit_item'          => 'Edit Project',
+		'view_item'          => 'View Project',
+		'all_items'          => 'All Projects',
+		'search_items'       => 'Search Projects',
+		'parent_item_colon'  => 'Parent Projects:',
+		'not_found'          => 'No Projects found.',
+		'not_found_in_trash' => 'No Projects found in Trash.'
+	);
+
+	$args = array( 
+		'public'      => true, 
+		'labels'      => $labels,
+		'description' => 'My yummy project will be published using this post type',
+		'menu_icon'   => 'dashicons-admin-site',
+		'exclude_from_search' => 'true',
+		'menu_position' => 3
+	);
+    register_post_type( 'project', $args );
+}
+add_action( 'init', 'project_post_type' );
+</pre>
+<p>The post <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/wordpress-custom-post-type/">WordPress Custom Post Type</a> appeared first on <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/">Brenton Oliver</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://boliver5463.github.io/portfolio-test/wordpress-custom-post-type/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>WordPress Custom Admin Page</title>
+		<link>https://boliver5463.github.io/portfolio-test/wordpress-custom-admin-page/</link>
+		<comments>https://boliver5463.github.io/portfolio-test/wordpress-custom-admin-page/#respond</comments>
+		<pubDate>Mon, 14 May 2018 01:10:18 +0000</pubDate>
+		<dc:creator><![CDATA[boliver5463]]></dc:creator>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[admin]]></category>
+		<category><![CDATA[custom]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<category><![CDATA[wp]]></category>
+
+		<guid isPermaLink="false">https://boliver5463.github.io/portfolio-test/?p=399</guid>
+		<description><![CDATA[<p>add_action( 'admin_menu', 'custom_content_feeds_plugin' ); function custom_content_feeds_plugin(){ add_menu_page( 'Content Feeds Plugin', 'Content Feeds', 'manage_options', 'content-feeds-plugin', 'content_feeds_plugin_page', 'dashicons-networking', 0 ); } function content_feeds_plugin_page(){ // code for that page<span class="excerpt-hellip"> […]</span></p>
+<p>The post <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/wordpress-custom-admin-page/">WordPress Custom Admin Page</a> appeared first on <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/">Brenton Oliver</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<pre>
+add_action( 'admin_menu', 'custom_content_feeds_plugin' );
+
+function custom_content_feeds_plugin(){
+	add_menu_page( 'Content Feeds Plugin', 'Content Feeds', 'manage_options', 'content-feeds-plugin', 'content_feeds_plugin_page', 'dashicons-networking', 0  );
+}
+function content_feeds_plugin_page(){
+	// code for that page
+}
+</pre>
+<p>The post <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/wordpress-custom-admin-page/">WordPress Custom Admin Page</a> appeared first on <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/">Brenton Oliver</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://boliver5463.github.io/portfolio-test/wordpress-custom-admin-page/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WordPress Custom Search</title>
+		<link>https://boliver5463.github.io/portfolio-test/wordpress-custom-search/</link>
+		<comments>https://boliver5463.github.io/portfolio-test/wordpress-custom-search/#respond</comments>
+		<pubDate>Mon, 30 Apr 2018 01:25:56 +0000</pubDate>
+		<dc:creator><![CDATA[boliver5463]]></dc:creator>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[backend]]></category>
+		<category><![CDATA[custom]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[posts]]></category>
+		<category><![CDATA[search]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<category><![CDATA[wp]]></category>
+
+		<guid isPermaLink="false">https://boliver5463.github.io/portfolio-test/?p=389</guid>
+		<description><![CDATA[<p>$posts = new WP_Query(array( 'numberposts' => -1, 'post_type' => 'POST_TYPE', 'post_status' => 'publish', 'orderby' => 'publish_date', 'order' => 'DESC' )); OR $posts = new WP_Query(array( 'numberposts'<span class="excerpt-hellip"> […]</span></p>
+<p>The post <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/wordpress-custom-search/">WordPress Custom Search</a> appeared first on <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/">Brenton Oliver</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<pre>
+$posts = new WP_Query(array(
+	'numberposts'	=> -1,
+	'post_type'	=> 'POST_TYPE',
+	'post_status' => 'publish',
+	'orderby' => 'publish_date',
+	'order' => 'DESC'
+));
+</pre>
+<p>OR</p>
+<pre>
+$posts = new WP_Query(array(
+	'numberposts'	=> -1,
+	'post_type'	=> 'POST_TYPE',
+	'post_status' => 'publish',
+	'orderby' => 'publish_date',
+	'order' => 'DESC'
+));
+</pre>
+<p>The post <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/wordpress-custom-search/">WordPress Custom Search</a> appeared first on <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/">Brenton Oliver</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://boliver5463.github.io/portfolio-test/wordpress-custom-search/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WordPress Shortcodes</title>
+		<link>https://boliver5463.github.io/portfolio-test/wordpress-shortcodes/</link>
+		<comments>https://boliver5463.github.io/portfolio-test/wordpress-shortcodes/#respond</comments>
+		<pubDate>Mon, 26 Jun 2017 03:46:57 +0000</pubDate>
+		<dc:creator><![CDATA[boliver5463]]></dc:creator>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[custom]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[shortcode]]></category>
+		<category><![CDATA[shortcodes]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<category><![CDATA[wp]]></category>
+
+		<guid isPermaLink="false">https://boliver5463.github.io/portfolio-test/projects/boport/?p=25</guid>
+		<description><![CDATA[<p>Ever wondered how to create your own custom WordPress Shortcodes but can never find a simple explanation? Well look no further! WordPress Shortcodes are text codes<span class="excerpt-hellip"> […]</span></p>
+<p>The post <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/wordpress-shortcodes/">WordPress Shortcodes</a> appeared first on <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/">Brenton Oliver</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Ever wondered how to create your own custom WordPress Shortcodes but can never find a simple explanation? Well look no further!</p>
+<p>WordPress Shortcodes are text codes placed into the content of Pages and Posts that look something like this</p>
+<blockquote><p>[this_is_a_shortcode]</p></blockquote>
+<p>To create one, go to your WordPress theme through FTP. There, look for functions.php. At the bottom of the file, make sure you are typing in a PHP block, and put in a custom function.</p>
+<p>After that is done, underneath add a line of code that looks like this</p>
+<pre>add_shortcode('this_is_a_shortcode', 'YOUR FUNCTION NAME');</pre>
+<p>This is what creates the Shortcode. The first variable in the function call is what the text found in between the square brackets when trying to call it. The second variable is making reference to which function to call when the Shortcode is called.</p>
+<p>The post <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/wordpress-shortcodes/">WordPress Shortcodes</a> appeared first on <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/">Brenton Oliver</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://boliver5463.github.io/portfolio-test/wordpress-shortcodes/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 70/114 objects using disk
+Page Caching using disk: enhanced (Page is feed) 
+
+Served from: brentonoliver.com @ 2020-07-28 02:45:48 by W3 Total Cache
+-->
