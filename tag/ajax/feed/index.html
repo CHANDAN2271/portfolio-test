@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ajax &#8211; Brenton Oliver</title>
+	<atom:link href="https://boliver5463.github.io/portfolio-test/tag/ajax/feed/" rel="self" type="application/rss+xml" />
+	<link>https://boliver5463.github.io/portfolio-test/</link>
+	<description>Web Developer</description>
+	<lastBuildDate>Mon, 13 May 2019 04:48:47 +0000</lastBuildDate>
+	<language>en-AU</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.0.10</generator>
+
+<image>
+	<url>https://boliver5463.github.io/portfolio-test/wp-content/uploads/2017/05/cropped-BO_Icon-32x32.png</url>
+	<title>ajax &#8211; Brenton Oliver</title>
+	<link>https://boliver5463.github.io/portfolio-test/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>jQuery Ajax call</title>
+		<link>https://boliver5463.github.io/portfolio-test/jquery-ajax-call/</link>
+		<comments>https://boliver5463.github.io/portfolio-test/jquery-ajax-call/#respond</comments>
+		<pubDate>Tue, 01 May 2018 23:51:25 +0000</pubDate>
+		<dc:creator><![CDATA[boliver5463]]></dc:creator>
+				<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[jQuery]]></category>
+		<category><![CDATA[ajax]]></category>
+		<category><![CDATA[call]]></category>
+		<category><![CDATA[javascript]]></category>
+
+		<guid isPermaLink="false">https://boliver5463.github.io/portfolio-test/?p=396</guid>
+		<description><![CDATA[<p>//ajax call var data = { action: 'path', path: datafolder; }; var ajaxurl = baseurl + ''; jQuery.post(ajaxurl, data, function(response) { alert('Got this from the server:<span class="excerpt-hellip"> […]</span></p>
+<p>The post <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/jquery-ajax-call/">jQuery Ajax call</a> appeared first on <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/">Brenton Oliver</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<pre>
+//ajax call 
+var data = {
+    action: 'path',
+    path: datafolder;
+};
+var ajaxurl = baseurl + '';
+jQuery.post(ajaxurl, data, function(response) {
+    alert('Got this from the server: ' + response);
+    console.log(response);
+});
+</pre>
+<p>The post <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/jquery-ajax-call/">jQuery Ajax call</a> appeared first on <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/">Brenton Oliver</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://boliver5463.github.io/portfolio-test/jquery-ajax-call/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Call Specific Function through the URL for WordPress</title>
+		<link>https://boliver5463.github.io/portfolio-test/call-specific-function-through-the-url-for-wordpress/</link>
+		<comments>https://boliver5463.github.io/portfolio-test/call-specific-function-through-the-url-for-wordpress/#respond</comments>
+		<pubDate>Tue, 01 May 2018 23:11:00 +0000</pubDate>
+		<dc:creator><![CDATA[boliver5463]]></dc:creator>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[ajax]]></category>
+		<category><![CDATA[function]]></category>
+		<category><![CDATA[get]]></category>
+		<category><![CDATA[url]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<category><![CDATA[wp]]></category>
+
+		<guid isPermaLink="false">https://boliver5463.github.io/portfolio-test/?p=392</guid>
+		<description><![CDATA[<p>In your code, add these lines add_action('wp_ajax_FUNCTION-NAME', 'FUNCTION-NAME'); add_action('wp_ajax_nopriv_FUNCTION-NAME', 'FUNCTION-NAME'); function FUNCTION-NAME() { echo "Its Working!"; } There is no return value, instead print the values<span class="excerpt-hellip"> […]</span></p>
+<p>The post <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/call-specific-function-through-the-url-for-wordpress/">Call Specific Function through the URL for WordPress</a> appeared first on <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/">Brenton Oliver</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>In your code, add these lines</p>
+<pre>
+add_action('wp_ajax_FUNCTION-NAME', 'FUNCTION-NAME');
+add_action('wp_ajax_nopriv_FUNCTION-NAME', 'FUNCTION-NAME');
+
+function FUNCTION-NAME() { 
+  echo "Its Working!"; 
+}
+</pre>
+<p>There is no return value, instead print the values with echo. The url to call would be this:</p>
+<blockquote><p>http://testsite.com/wp-admin/admin-ajax.php?action=FUNCTION-NAME</p></blockquote>
+<p>The post <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/call-specific-function-through-the-url-for-wordpress/">Call Specific Function through the URL for WordPress</a> appeared first on <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/">Brenton Oliver</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://boliver5463.github.io/portfolio-test/call-specific-function-through-the-url-for-wordpress/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 59/104 objects using disk
+Page Caching using disk: enhanced (Page is feed) 
+
+Served from: brentonoliver.com @ 2020-07-28 02:45:24 by W3 Total Cache
+-->
