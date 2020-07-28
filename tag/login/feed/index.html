@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>login &#8211; Brenton Oliver</title>
+	<atom:link href="https://boliver5463.github.io/portfolio-test/tag/login/feed/" rel="self" type="application/rss+xml" />
+	<link>https://boliver5463.github.io/portfolio-test/</link>
+	<description>Web Developer</description>
+	<lastBuildDate>Mon, 13 May 2019 04:48:47 +0000</lastBuildDate>
+	<language>en-AU</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.0.10</generator>
+
+<image>
+	<url>https://boliver5463.github.io/portfolio-test/wp-content/uploads/2017/05/cropped-BO_Icon-32x32.png</url>
+	<title>login &#8211; Brenton Oliver</title>
+	<link>https://boliver5463.github.io/portfolio-test/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>WP Automatic Admin Login by IP</title>
+		<link>https://boliver5463.github.io/portfolio-test/wp-automatic-admin-login-by-ip/</link>
+		<comments>https://boliver5463.github.io/portfolio-test/wp-automatic-admin-login-by-ip/#respond</comments>
+		<pubDate>Fri, 27 Apr 2018 03:25:26 +0000</pubDate>
+		<dc:creator><![CDATA[boliver5463]]></dc:creator>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[admin]]></category>
+		<category><![CDATA[automatic]]></category>
+		<category><![CDATA[ip]]></category>
+		<category><![CDATA[login]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<category><![CDATA[wp]]></category>
+
+		<guid isPermaLink="false">https://boliver5463.github.io/portfolio-test/?p=370</guid>
+		<description><![CDATA[<p>Add this code at the top of your functions.php file. /* Automatically logs in Struber Creative employees when thy navigate to wp-admin */ if ( $GLOBALS['pagenow']<span class="excerpt-hellip"> […]</span></p>
+<p>The post <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/wp-automatic-admin-login-by-ip/">WP Automatic Admin Login by IP</a> appeared first on <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/">Brenton Oliver</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Add this code at the top of your functions.php file.</p>
+<pre>/* Automatically logs in Struber Creative employees when thy navigate to wp-admin */
+if ( $GLOBALS['pagenow'] === 'wp-login.php' &amp;&amp; $_SERVER['REMOTE_ADDR'] == 'YOUR IP ADDRESS') {
+// We're on the login page!
+// Automatic login //
+$user = get_user_by('ID', 1 );
+
+// Redirect URL //
+if ( !is_wp_error( $user ) )
+{
+wp_clear_auth_cookie();
+wp_set_current_user ( $user-&gt;ID );
+wp_set_auth_cookie ( $user-&gt;ID );
+
+$redirect_to = user_admin_url();
+wp_safe_redirect( $redirect_to );
+exit();
+}
+}</pre>
+<p>The post <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/wp-automatic-admin-login-by-ip/">WP Automatic Admin Login by IP</a> appeared first on <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/">Brenton Oliver</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://boliver5463.github.io/portfolio-test/wp-automatic-admin-login-by-ip/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 50/94 objects using disk
+Page Caching using disk: enhanced (Page is feed) 
+
+Served from: brentonoliver.com @ 2020-07-28 02:46:40 by W3 Total Cache
+-->
