@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>manipulate &#8211; Brenton Oliver</title>
+	<atom:link href="https://boliver5463.github.io/portfolio-test/tag/manipulate/feed/" rel="self" type="application/rss+xml" />
+	<link>https://boliver5463.github.io/portfolio-test/</link>
+	<description>Web Developer</description>
+	<lastBuildDate>Mon, 13 May 2019 04:48:47 +0000</lastBuildDate>
+	<language>en-AU</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.0.10</generator>
+
+<image>
+	<url>https://boliver5463.github.io/portfolio-test/wp-content/uploads/2017/05/cropped-BO_Icon-32x32.png</url>
+	<title>manipulate &#8211; Brenton Oliver</title>
+	<link>https://boliver5463.github.io/portfolio-test/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>PHP &#8211; Get an image using data URIs</title>
+		<link>https://boliver5463.github.io/portfolio-test/php-get-an-image-using-data-uris/</link>
+		<comments>https://boliver5463.github.io/portfolio-test/php-get-an-image-using-data-uris/#respond</comments>
+		<pubDate>Tue, 04 Dec 2018 23:05:17 +0000</pubDate>
+		<dc:creator><![CDATA[boliver5463]]></dc:creator>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[image]]></category>
+		<category><![CDATA[images]]></category>
+		<category><![CDATA[manipulate]]></category>
+		<category><![CDATA[manipulation]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[security]]></category>
+
+		<guid isPermaLink="false">https://boliver5463.github.io/portfolio-test/?p=595</guid>
+		<description><![CDATA[<p>So usually an image is outputted through a filepath in the &#8216;src&#8217; attribute in an &#8216;img&#8217; tag. Although we can manipulate the filepath in such a<span class="excerpt-hellip"> […]</span></p>
+<p>The post <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/php-get-an-image-using-data-uris/">PHP &#8211; Get an image using data URIs</a> appeared first on <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/">Brenton Oliver</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>So usually an image is outputted through a filepath in the &#8216;src&#8217; attribute in an &#8216;img&#8217; tag. Although we can manipulate the filepath in such a way we can actually recreate the image by getting the image&#8217;s data into base64 encoding. It helps protect outsiders from knowing your folder structure.</p>
+<p>Note: IE7 and lower don&#8217;t support Data URIs Doing it this way also helps speed up page speed as there is no need to search for a url.</p>
+<pre>
+// A few settings
+$image = 'cricci.jpg';
+
+// Read image path, convert to base64 encoding
+$imageData = base64_encode(file_get_contents($image));
+
+// Format the image SRC:  data:{mime};base64,{data};
+$src = 'data: '.mime_content_type($image).';base64,'.$imageData;
+
+// Echo out a sample image
+echo '&lt;img src="', $src, '"&gt;';
+</pre>
+<p>The post <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/php-get-an-image-using-data-uris/">PHP &#8211; Get an image using data URIs</a> appeared first on <a rel="nofollow" href="https://boliver5463.github.io/portfolio-test/">Brenton Oliver</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://boliver5463.github.io/portfolio-test/php-get-an-image-using-data-uris/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 48/92 objects using disk
+Page Caching using disk: enhanced (Page is feed) 
+
+Served from: brentonoliver.com @ 2020-07-28 02:46:43 by W3 Total Cache
+-->
