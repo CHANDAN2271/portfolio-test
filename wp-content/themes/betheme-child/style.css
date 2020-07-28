@@ -1,0 +1,131 @@
+html {background-color: #fff;}
+button, button:hover, button:focus {background-color: #4285f4;color: #fff;}
+button:hover {opacity: .7;}
+::selection {background-color: #3297fd;}
+h3 {margin: 10px 0 5px 0;}
+#Top_bar .menu {margin: 0;}
+.home #Content {padding-top: 0 !important;}
+#logo:after {content: "< Brenton Oliver />";display: inline-block;color: #fff;padding-left: 10px;font-size: 20px;vertical-align: middle;line-height: 1;}
+.top_bar_left {height: 90px;}
+@media screen and (max-width: 769px) {#logo:after {font-size: 15px;}
+	.top_bar_left {height: auto;}}
+#Top_bar #logo img {max-height: 60px !important;}
+#Top_bar #logo .logo-home {display: none;}
+.site {max-width: none;}
+.site-header {background-color: #4285f4;max-width: none;}
+#header-logo {width: 100%;max-width: 150px;max-height: auto;}
+#mobile-sites {display: none;}
+.site-navigation .current_page_item > a, .site-navigation .current_page_ancestor > a, .site-navigation .current-menu-item > a, .site-navigation .current-menu-ancestor > a {color: #fff;text-shadow: 1px 1px 3px #000;}
+.primary-navigation li:hover > a, .primary-navigation li.focus > a {background-color: rgba(255,255,255,.3);}
+.primary-navigation li.current_page_item {border-bottom: 5px solid #fff;box-sizing: border-box;}
+.primary-navigation ul li:hover ul {right: 0;}
+.search-toggle {background-color: rgba(255,255,255,.3);}
+.search-toggle {background-color: #4285f4;border-left: 1px solid #fff;}
+.search-toggle:hover, .search-toggle.active {background-color: rgba(255,255,255,.3);}
+.search-box {background-color: #7aaaf8;}
+.site:before {background-color: transparent;}
+#secondary {background-color: #4285f4;position: fixed !important;margin: 0;left: 0;width: auto !important;top: 47px;box-sizing: border-box;height: calc(100vh - 47px);}
+#secondary #website-form {max-width: 150px;}
+#secondary .websites {display: block;width: 100%;color: #fff;box-sizing: border-box;padding: 5px;transition: .7s;}
+#secondary .websites:hover {color: #fff;background-color: rgba(255,255,255,.3);border-left: 5px solid #fff;margin-left: 15px;transition: .7s;}
+#secondary .websites.active {border-left: 5px solid #1034fb;margin-left: 15px;transition: .7s;}
+#secondary .website-list {padding: 0;overflow-y: scroll;height: 100%;max-height: calc(100vh - 255px);font-size: 10px;word-break: break-word;}
+#secondary .employer_collapse {font-size: 18px;font-family: inherit;font-weight: 500;line-height: 1.1;color: #fff;width: 100%;text-align: left;display: block;}
+#secondary .card.card-body {border-left: 1px solid #eee;}
+#secondary .collapse:last-child {margin-bottom: 15px;}
+#secondary .website-list::-webkit-scrollbar {display: none;}
+#secondary .website-list {-ms-overflow-style: none;overflow: -moz-scrollbars-none;}
+.site-description {text-align: center;}
+.site-footer {display: none;}
+.site-content .entry-header, .site-content .entry-content, .site-content .entry-summary, .site-content .entry-meta, .page-content {max-width: 700px;}
+.site-title a {font-size: 17px;}
+.site-title a:before, h1.entry-title:before {content: "< ";}
+.site-title a:after, h1.entry-title:after {content: " />";}
+* {font-family: "Arial";}
+.site-title a, h1.entry-title, .primary-navigation a, #mobile-sites, #logo:after {font-family: "Source Code Pro",monospace;}
+body.minimalist-header.header-fixed:not(.template-slider) #Header {}
+.white-text, .white-text * {color: #fff;}
+#Content {padding-top: 0;}
+#menu *, h1, h2, h3 {font-family: "Source Code Pro",monospace !important;}
+h1:before, h2:before {content: "< ";}
+h1:after, h2:after {content: " />";}
+body.home #Subheader {display: none;}
+body:not(.home) #Subheader {margin-top: 90px;}
+#Subheader .title:before {content: "< ";}
+#Subheader .title:after {content: " />";}
+@media screen and (max-width: 768px) {.home #Content {padding-top: 0 !important;}
+	.mobile-header-mini #Top_bar #logo {height: 60px !important;}}
+.primary-navigation a {text-decoration: none;}
+.primary-navigation ul ul {background-color: #4285f4;}
+.primary-navigation ul ul a:hover, .primary-navigation ul ul a:focus {background-color: rgba(255,255,255,.3) !important;}
+.top_bar_right #search_button {display: none;}
+.header-fixed #Top_bar {background-color: rgba(0,0,0,.5) !important;}
+#Top_bar #rss_feed {position: relative;top: 9px;display: block;float: left;right: 10px;font-size: 23px;line-height: 22px;margin-right: 5px;margin-left: -1px;}
+@media (max-width: 767px) {#Top_bar #rss_feed {top: 19px;margin-right: 0;margin-left: 0;}}
+.resume-item {display: inline-block;max-width: 45%;width: 100%;margin: 0 2.5%;}
+.resume-item:nth-child(odd) {float: right;}
+.resume-item .resume-item-level {width: 100%;background-color: #a9a9a9;height: 20px;line-height: 20px;border-radius: 20px;position: relative;}
+.resume-item .completion {background-color: #00f;height: 20px;border-radius: 20px;float: left;}
+.resume-item .percentage {position: absolute;left: 5px;color: #fff;text-shadow: 1px 1px #000;}
+.resume-job {display: block;margin: 20px 0;}
+.resume-job .job-title, .resume-job .job-timeframe {display: inline-block;vertical-align: bottom;width: 50%;color: #fff;background-color: #00f;line-height: 25px;box-sizing: border-box;}
+.resume-job .job-title {padding-left: 10px;}
+.resume-job .job-timeframe {padding-right: 10px;font-size: 13px;text-align: right;}
+.resume-job .job-work-title {padding: 0 10px;box-sizing: border-box;}
+.resume-job .job-descritpion {display: block;padding: 0 10px;box-sizing: border-box;}
+.resume-job .reference {font-size: 16px;margin-left: 35px;}
+.resume-item-title {position: relative;}
+.resume-item-title i {position: absolute;right: 0;}
+#single-tool-frame {width: calc(100% - 222px);position: absolute;left: 222px;top: 0;height: calc(100vh - 48px);z-index: 2;margin: 0 !important;background-color: #fff;}
+#tools-button {color: #fff !important;border: 1px solid #fff;display: block;padding: 20px;text-align: center;}
+#tools-button:hover {background-color: rgba(255,255,255,.3) !important;}
+.app-wrapper {text-align: center;}
+.apps {position: relative;width: 100px;height: 100px;display: inline-block;background-size: cover !important;background-position: center !important;border-radius: 15px;margin: 0 4px 25px 4px;}
+.app-title {position: absolute;bottom: -24px;text-align: center;width: 100%;}
+.content-area {padding-top: 50px;}
+#ajaxsearchlite1 .probox, div.asl_w .probox {background-color: #abcaf9;background-image: none;}
+div.asl_w .probox .promagnifier, div.asl_w .probox div.prosettings, div.asl_s.searchsettings, div.asl_r.vertical {background-color: #1034fb;background-image: none;}
+div.asl_s.searchsettings form fieldset legend {color: #fff;}
+div.asl_r.vertical {}
+@media screen and (max-width: 1080px) {#single-tool-frame {width: calc(100% - 182px);left: 182px;}}
+@media screen and (min-width: 1009px) {#secondary {display: block !important;}}
+@media screen and (max-width: 1008px) {.site-header {position: fixed;top: 0;}
+	.site-description {display: block;margin: 5px 0;}
+	.primary-sidebar {padding-top: 0;}
+	.widget {margin-bottom: 10px;}
+	#secondary {display: none;top: 47px;width: 122px;}
+	#mobile-sites {display: inline-block;height: 48px;line-height: 48px;top: 0;left: calc(50% - 25px);width: 50px;color: #fff;text-align: center;border-left: 1px solid #fff;float: right;cursor: pointer;z-index: 10;}
+	#mobile-sites:hover {background-color: rgba(255,255,255,.3);}
+	#secondary .website-list {max-height: calc(100vh - 220px);}
+	.menu-toggle {background-color: #4285f4;}
+	.menu-toggle:active, .menu-toggle:focus, .menu-toggle:hover {background-color: rgba(255,255,255,.3);}}
+@media screen and (max-width: 1008px) {#mobile-sites {padding: 0;}}
+@media screen and (max-width: 1008px) {#single-tool-frame {width: 100%;position: absolute;left: 0;top: 48px;height: calc(100vh - 48px);z-index: 2;}}
+@media screen and (max-width: 783px) {.search-toggle {border-right: 1px solid #fff;}}
+@media screen and (max-width: 640px) {.resume-item {display: block !important;float: none !important;margin: 0 auto;max-width: 100%;}}
+.header-fixed #Top_bar {background-color: #5086ed !important;}
+.min-image-height {min-height: 200px;}
+#bo-sites-tab {position: fixed;top: 100px;left: 0;transform-origin: 14px;background-color: #5086ed;padding: 15px 4px;color: #fff;border-radius: 0 5px 5px 0;cursor: pointer;transition: margin-left 1s;border-top: 1px solid #fff;border-right: 1px solid #fff;border-bottom: 1px solid #fff;z-index: 5462;writing-mode: vertical-lr;}
+.bo-sites {position: fixed;top: 0;left: -300px;z-index: 5460;width: 300px;height: 100vh;overflow-y: scroll;background-color: #5086ed;border-right: 1px solid #fff;transition: all 1s;}
+.bo-sites .employer_collapse {display: block;}
+.bo-sites a.websites {display: block;margin: 8px 0;cursor: pointer;box-sizing: border-box;color: #fff;transition: all .5s;}
+.bo-sites a.websites:hover {margin-left: 25px;transition: all .5s;}
+.bo-sites a.websites-no-link {opacity: .5;}
+#bo-site-window {z-index: 5461;position: fixed;top: 0;bottom: 0;width: 100vw;height: 100%;background-color: #5086ed;left: 100vw;transition: all 1s;}
+#bo-site-window iframe {width: 100%;height: 100%;background-color: transparent;}
+#bo-site-window:before {content: "";top: calc(50% - 50px);bottom: 0;left: calc(50% - 50px);right: 0;z-index: -1;width: 200px;height: 200px;position: absolute;background-image: url("https://boliver5463.github.io/portfolio-test/wp-content/uploads/2017/05/BO_Icon.png");background-position: center;background-repeat: no-repeat;background-size: 100px;-webkit-animation: rotation 2s infinite linear;}
+@-webkit-keyframes rotation {from {-webkit-transform: rotate(0deg);}
+	to {-webkit-transform: rotate(359deg);}}
+body.single-post #Content {margin-top: 100px;}
+@media screen and (max-width: 769px) {body.single-post #Content {margin-top: 60px;}}
+#contact-bubble {position: fixed;overflow: hidden;bottom: 15px;right: 15px;font-size: 20px;border-radius: 25px;background-color: #4285f4;border: 1px solid #4285f4;color: #fff;width: 50px;height: 50px;box-shadow: 1px 3px 10px #333;line-height: 20px;text-align: center;cursor: pointer;opacity: 1;transition: all .5s;}
+#contact-bubble:hover {background-color: #fff;color: #4285f4;opacity: 1;transition: all .5s;}
+body.page-id-627 #Top_bar {background-color: transparent !important;box-shadow: none;}
+body.page-id-627 #Subheader {display: none;}
+body.page-id-627 #Content {padding-top: 0 !important;}
+body.page-id-627 .bo-sites {background-color: rgba(80,134,237,.31);}
+body.page-id-627 .bo-sites .btn-primary {background-color: rgba(0,105,217,.56);border-color: rgba(0,98,204,.31);}
+body.page-id-627 .bo-sites .card {background-color: rgba(255,255,255,.31) !important;color: #fff !important;}
+body.page-id-627 #bo-site-window {background-color: rgba(80,134,237,.31);}
+body.page-id-627 #Top_bar #logo img:not(.logo-home) {display: none;}
+body.page-id-627 #Top_bar #logo .logo-home {display: inline-block;}
